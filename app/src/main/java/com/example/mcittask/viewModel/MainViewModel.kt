@@ -34,7 +34,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 )
 
                 FirebaseDatabase.getInstance().reference.child("Token")
-                        .updateChildren(map).addOnSuccessListener {
+                        .setValue(map).addOnSuccessListener {
                         createNotification(context)
                     }.addOnFailureListener {
                         Log.d("TAG", "OnFailureListener" + it.localizedMessage)
