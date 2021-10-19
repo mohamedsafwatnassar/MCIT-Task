@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260627556865",
+    "project_id": "mcit-task",
+    "storage_bucket": "mcit-task.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260627556865:android:7f86060f28de7c7eb2ae00",
+        "android_client_info": {
+          "package_name": "com.example.mcittask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260627556865-asntnvimisr2nihv1bumktvrc2glotee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC45-rdrIPdjWzl1MU5gtVIdgYeixPWACI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260627556865-asntnvimisr2nihv1bumktvrc2glotee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
