@@ -44,7 +44,7 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
     }
 
     private fun createNotification(context: Context) {
-        val databaseReference = FirebaseDatabase.getInstance().getReference("Token")
+        val databaseReference = FirebaseDatabase.getInstance().reference.child("Token")
         databaseReference.addListenerForSingleValueEvent(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 if (snapshot.exists()) {
